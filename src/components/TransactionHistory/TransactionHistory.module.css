@@ -1,0 +1,29 @@
+.order {
+  text-align: center;
+  width: 500px;
+  margin: 0 auto;
+  border-collapse: collapse;
+  margin: 0 auto;
+}
+
+.order th {
+  background-color: rgb(39, 38, 38);
+  color: white;
+  padding: 10px;
+}
+
+.order td {
+  padding: 10px;
+}
+.order tr:nth-child(even) td {
+  background-color: #f2f2f2d2;
+}
+
+.order tr:nth-child(odd) td {
+  background-color: lightgrey;
+}
+
+.order th,
+.order td {
+  border: 1px solid black;
+}

@@ -1,0 +1,19 @@
+.card {
+  border: 2px solid black;
+  border-radius: 12px;
+  padding: 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  align-items: center;
+}
+.username {
+  font-size: 20px;
+}
+.statusonline {
+  color: green;
+}
+
+.statusoffline {
+  color: red;
+}
